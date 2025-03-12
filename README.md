@@ -21,7 +21,7 @@ Adicione as seguintes linhas ao arquivo `~/.bashrc`:
 ```bash
 export ANDROID_HOME=$HOME/Android/Sdk
 export ANDROID_SDK_ROOT=$ANDROID_HOME
-export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
+export PATH=$PATH:/home/$USER/Android/Sdk/cmdline-tools/latest/bin
 ```
 
 ## 5. Atualizar o `~/.bashrc`
